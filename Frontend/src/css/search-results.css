@@ -1,0 +1,44 @@
+.search-results {
+  /* margin-top: -1rem; */
+  background-color: #fff;
+  border-radius: 15px 15px 0 0;
+}
+.search-route {
+  padding: 1rem 0 1rem;
+}
+.search-route hr {
+}
+.filter-sort {
+  padding: 0.5rem;
+}
+.operators-filter input[type="radio"] {
+  height: 40px;
+  background-color: blue;
+}
+.search-results form {
+  overflow-x: auto;
+}
+.search-results form label div {
+  display: block;
+  width: 500px;
+}
+@media screen and (min-width: 768px) {
+  .search-results {
+    margin: 0;
+  }
+  .search-results form {
+    margin-top: 4rem;
+    flex-direction: column;
+    float: left;
+    /* display: inline; */
+  }
+  .search-results form input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  .search-results form label {
+    margin: 0.6rem;
+  }
+  .search-results-container .ticket-list {
+    margin-top: 0.5rem;
+  }
+}

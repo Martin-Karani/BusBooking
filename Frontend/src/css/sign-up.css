@@ -1,0 +1,145 @@
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+.login {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+.form {
+  width: 95%;
+}
+
+.form-div {
+  position: relative;
+  height: 40px;
+  margin-bottom: 1rem;
+  overflow: visible;
+}
+.form-input {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(193, 193, 193);
+  border-radius: 0.5em;
+  line-height: 1.3rem;
+  padding: 0.5em 1em;
+  outline: none;
+  background: none;
+  z-index: 1;
+}
+.first-last-name div:first-child {
+  margin-right: 1rem;
+  width: 50%;
+}
+.first-last-name div:last-child {
+  width: 50%;
+}
+.form-label {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0 0.25em;
+  background-color: #fff;
+  color: #000;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+/* input focus move the label up */
+
+.form-input:focus + .form-label {
+  top: -0.5rem;
+  left: 0.8rem;
+  color: blueviolet;
+  font-size: 0.9rem;
+  background-color: #fff;
+
+  font-weight: 600;
+  z-index: 10;
+}
+.form-input:not(:placeholder-shown).form-input:not(:focus) + .form-label {
+  top: -0.5rem;
+  left: 0.8rem;
+
+  font-size: 0.9rem;
+  /* background-color: #fff; */
+
+  font-weight: 600;
+  z-index: 10;
+}
+
+.form-input:focus {
+  border: 2px solid blueviolet;
+}
+.login .primary-btn {
+  width: 100%;
+}
+.primary-btn,
+.secordary-btn {
+  padding: 0.7em 1rem;
+  height: 2.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+.primary-btn {
+  border: 0;
+  background-color: blueviolet;
+  color: rgb(255, 255, 255);
+}
+.primary-btn:hover {
+  background-color: rgb(61, 3, 115);
+}
+.secordary-btn {
+  border: 1px solid blueviolet;
+  background: #fff;
+  color: blueviolet;
+  font-weight: 500;
+}
+
+.form p,
+.or,
+.secordary-btn {
+  width: 80%;
+  margin: 0.5rem auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.or hr {
+  flex: auto;
+  border: none;
+  height: 1px;
+  background-color: #000;
+}
+.or span {
+  padding: 0.5em;
+}
+
+/* ---------------------------------min width 768 styles ------------------------------------- */
+@media screen and (min-width: 768px) {
+  .login {
+    flex-direction: row;
+  }
+  .form {
+    flex: 1;
+  }
+  .form-image {
+    flex: 1.5;
+    height: 100vh;
+    background-color: rgba(88, 88, 88, 0.055);
+  }
+}

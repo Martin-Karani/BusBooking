@@ -1,0 +1,8 @@
+.add-route-form {
+  width: 95%;
+  margin: auto;
+}
+.add-route-form label,
+.add-route-form textarea {
+  display: block;
+}

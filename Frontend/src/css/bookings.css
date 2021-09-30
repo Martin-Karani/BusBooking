@@ -1,0 +1,65 @@
+.bookings {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  padding: 1rem;
+  margin: 0 auto 1rem;
+  width: 95%;
+  border-radius: 5px;
+}
+
+.hr {
+  width: 100%;
+  border: none;
+  height: 1px;
+  background-color: rgb(59, 59, 59);
+  position: relative;
+  top: 7px;
+}
+
+/* .bookings div:nth-child(3) {
+  width: 89%;
+  margin: 0.5rem auto;
+} */
+.ticket-info {
+  margin: 0 0 1rem 0;
+  padding: 0.25rem 0;
+}
+.ticket-to,
+.ticket-from {
+  font-size: large;
+}
+.booking div:nth-child(2) {
+  margin: 90rem;
+}
+.bookings label {
+  /* margin-left: 0.5rem; */
+  /* padding: 0.25rem;/ */
+
+  font-size: 0.85rem;
+}
+.booking-no {
+  background-color: rgba(0, 255, 8, 0.476);
+  padding: 5px 9px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+}
+
+.bus-type-ticket {
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-size: 16px;
+}
+.bookings button {
+  width: 50%;
+  margin-top: 0.5rem;
+  background-color: #fff;
+  padding: 0.5rem 2rem;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 5px;
+  color: rgb(255, 0, 0);
+}
+@media screen and (min-width: 768px) {
+  .bookings {
+    margin: 0;
+  }
+}

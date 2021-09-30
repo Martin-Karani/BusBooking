@@ -1,0 +1,66 @@
+.bus-operators .back {
+  padding-bottom: 2rem;
+}
+.bus-operator {
+  margin-top: -1rem;
+  background-color: #ffffff;
+  border-radius: 15px 15px 0 0;
+  padding-top: 1rem;
+}
+
+.bus-operator-route .back {
+  /* display: none; */
+  padding-bottom: 2rem;
+}
+.bus-operator-logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  background-color: aquamarine;
+}
+.bus-operator-name li {
+  padding: 0.5rem;
+}
+.bus-operator-name {
+  width: 95%;
+  margin: auto;
+}
+.bus-operator-counts p {
+  font-size: 0.8rem;
+}
+.bus-operator-counts p:last-child {
+  margin-left: 1rem;
+}
+.bus-operator-name hr {
+  border: 1px solid rgba(42, 42, 42, 0.068);
+}
+@media screen and (min-width: 768px) {
+  /* .bus-operator-counts p {
+    font-size: 0.8rem;
+  }
+  .bus-operator-counts p:last-child {
+    margin-left: 0.5rem;
+  }
+  .bus-operator-name {
+    flex: 1.4;
+  }
+  .bus-operator-name li {
+    margin-bottom: 0.5rem;
+  }
+  .bus-operator-name hr {
+    border: none;
+    height: 1px;
+    width: 90%;
+    margin-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.198);
+  }
+
+  .bus-operator-route {
+    flex: 4;
+    background-color: rgba(0, 0, 0, 0.164);
+  }
+  .operator-filter {
+    float: right;
+  } */
+}

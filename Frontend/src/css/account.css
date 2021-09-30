@@ -1,0 +1,62 @@
+.account-profile {
+  padding-bottom: 2rem;
+}
+.account {
+  /* width: 95%; */
+  /* margin: -rem auto; */
+}
+.icon {
+  size: 30px;
+}
+.account ul {
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  padding: 0.5rem;
+  /* margin-top: -1rem;www */
+  border-radius: 15px;
+  background-color: #fff;
+  margin-bottom: 0.5rem;
+  /* width: 80%; */
+}
+.account ul li {
+  padding: 1rem;
+}
+.account ul li p {
+  /* margin-bottom: 12px; */
+  /* align-items: center; */
+  display: inline-block;
+}
+.account hr {
+  border-color: rgba(7, 7, 7, 0.075);
+}
+.profile {
+  background-color: rgb(138, 84, 189);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.profile-image {
+  height: 35px;
+  width: 35px;
+  border: o;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0.7rem;
+}
+.profile-name {
+  font-weight: 500;
+  font-size: 18px;
+}
+.profile-email,
+.location {
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+.profile-detail {
+  margin-top: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .account .bookings {
+    margin: 0 !important;
+    width: 100%;
+  }
+}

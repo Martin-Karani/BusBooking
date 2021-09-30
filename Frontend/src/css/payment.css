@@ -1,0 +1,90 @@
+.payment {
+  /* margin-top: 1rem; */
+}
+.payment h4 {
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+.pay-methods {
+  width: 95%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.pay-methods p {
+  font-size: 1.1rem;
+}
+.phone-input {
+  padding: 0.2rem;
+
+  /* margin-top: 1rem; */
+  width: 80%;
+  margin: auto;
+}
+.pay-methods button {
+  padding: 1rem 0.5rem;
+  padding: 0.7em 1rem;
+  height: 2.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 1rem;
+  width: 80%;
+}
+.pay-methods ul {
+  overflow: auto;
+}
+.pay-methods ul li {
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pay-methods ul li inpu {
+}
+.pay-methods label {
+  /* display: block; */
+  /* width: 100%; */
+  /* margin: 1rem auto; */
+}
+.pay-icon {
+  margin-right: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .payment-card {
+    display: flex;
+    flex-direction: row;
+    /* height: 100vh; */
+    /* justify-content: space-between; */
+  }
+  .pay-methods {
+    width: 50%;
+    /* flex: 1; */
+    flex-basis: 50%;
+    margin: 1rem 0.3rem;
+    padding: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* height: 100vh; */
+  }
+  .pay-methods ul li {
+    width: 100%;
+
+    /* overflow: auto; */
+  }
+
+  .payment .bookings {
+    /* padding: 1.5rem; */
+    width: 50%;
+    /* flex: 1; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 1rem 0.3rem;
+  }
+  .bookings div {
+    margin-bottom: 1rem;
+  }
+}
